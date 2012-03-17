@@ -1,0 +1,13 @@
+TODO File for ICE:
+------------------
+Todo before processes can be started:
+* Finish scheduler (just small fixes)
+
+
+When processes can start:
+* Write clock-service (actually a process) and connect it to scheduler.
+* Write system service which boots system up... 
+* Write priority scheduling
+* Add startup detection of memory, floppy, hdd etc...
+* Lowlevel Memory manager (not server part)
+* Add some simple IPC mechanism to protected I/O devices
